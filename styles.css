@@ -1,2 +1,96 @@
-
 /* Your CSS Code here. */
+*{
+	font-family: Arial;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h3{
+	color: black;
+}
+.container{
+	display: grid;
+	grid-template-columns: 8fr 2fr;
+	grid-template-rows: auto auto auto 1fr 1fr auto;
+	height: 100vh;
+}
+header{
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	background-color: #3BC1A8;
+	grid-column: span 2;
+}
+nav{
+	background-color: #249E94;
+	grid-column: span 2;
+}
+ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: black;
+}
+.summary{
+	background-color: #7AB2B2;
+	color: white;
+	padding: 10px;
+	font-size: 0.9rem;
+	text-align: justify;
+}
+#actor{
+	background-color: #5F9598;
+	padding: 10px;
+	color: white;
+	text-align: justify;
+}
+.actor-section{
+	font-weight: bold;
+}
+.actor-section:hover{
+	color: black;
+}
+#quote{
+	background-color: #5F9598;
+	text-align: justify;
+	color: white;
+	padding: 10px;
+}
+aside{
+	background-color: #0C7779;
+	color: white;
+	grid-row: span 3;
+	padding: 10px;
+}
+.aside-content{
+	display: inline-block;
+}
+.ratings{
+	display: block;
+	color: gold;
+	font-size: 1.5rem;
+	margin-block-end: 20px;
+}
+.release-date{
+	display: block;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+footer{
+	background-color: #005461;
+	padding: 20px;
+	color: white;
+	grid-column: span 2;
+}
+.prod-names:hover{
+	color: black;
+}
