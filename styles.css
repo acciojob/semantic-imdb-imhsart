@@ -26,10 +26,7 @@ header{
 nav{
 	background-color: #249E94;
 	grid-column: span 2;
-}
-ul{
 	display: flex;
-	list-style: none;
 	justify-content: space-around;
 	padding: 10px;
 }
@@ -40,7 +37,7 @@ a{
 a:hover{
 	color: black;
 }
-.summary{
+summary{
 	background-color: #7AB2B2;
 	color: white;
 	padding: 10px;
